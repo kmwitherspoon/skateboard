@@ -1,0 +1,133 @@
+@media screen and (max-width: 1189px) {
+
+ .skateboards img {
+   padding-right: 0;
+ }
+
+.skater-nav {
+  ul {
+     margin-left: 35px;
+   }
+    li {
+       font-size: 14px;
+     }
+   }
+
+  .main-content {
+    max-height: 100%;
+    padding-left: 10%;
+  }
+
+  #thumbwrap .thumb img {
+      padding-right: 3%;
+      padding-left: 0;
+    }
+
+  #thumbwrap .thumb {
+    margin: 0 1.5px 0 0;
+  }
+
+  .skateboarders .skaters p {
+    width: 380px;
+    height: 227px;
+  }
+
+  .skateboarders .skaters div {
+    width: 430px;
+}
+.skateboarders .sidebar img {
+    height: 349px;
+  }
+
+.skateboarders .skaters div img {
+  width: 42%;
+}
+}
+
+@media screen and (max-width: 1120px) {
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+  #thumbwrap .thumb img {
+      padding-right: 1.5%;
+      padding-left: 0;
+    }
+
+  #form-div {
+  height: 100%;
+}
+
+  .skater-nav ul {
+    margin-left: 25px;
+}
+
+.form {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  header nav .skater-nav {
+    overflow: visible;
+  }
+
+  .figure img {
+    width: 400px;
+  }
+
+  .main-content section {
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.main-content {
+  clear: both;
+    max-height: 100%;
+    display: block;
+    /* padding-left: 10%; */
+}
+
+#thumbwrap {
+  width: 100%;
+  padding: 0;
+  margin: 10px;
+}
+
+.skateboarders .sidebar {
+    border: solid 5px white;
+    /* float: right; */
+    width: 100%;
+    overflow: hidden;
+}
+
+footer {
+  clear: both;
+}
+
+#form-div {
+  padding-bottom: 50%;
+  height: auto;
+}
+
+.css-slideshow {
+  margin-top: 20%;
+}
+
+.skater-nav ul {
+  padding: 20px;
+}
+}
