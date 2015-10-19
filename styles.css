@@ -353,51 +353,45 @@ figcaption {
     width: 100%;
     background-color: white; }
 
-@media screen and (max-width: 1189px) {
-  .skateboards img {
-    padding-right: 0; }
+@media screen and (max-width: 1230px) {
+  .skateboarders .sidebar {
+    width: 35%; }
+  /*  .skateboards {
+    padding-top: 20px;
+    width: 100%;
+  }*/
   .skater-nav ul {
-    margin-left: 35px; }
-  .skater-nav li {
-    font-size: 14px; }
+    list-style: none; }
+  .skater-nav ul li {
+    width: 100%; }
   .main-content {
-    max-height: 100%;
-    padding-left: 10%; }
-  #thumbwrap .thumb img {
-    padding-right: 3%;
-    padding-left: 0; }
+    display: flex;
+    margin-bottom: 50px;
+    max-height: 600px; }
   #thumbwrap .thumb {
-    margin: 0 1.5px 0 0; }
-  .skateboarders .skaters p {
-    width: 380px;
-    height: 227px; }
-  .skateboarders .skaters div {
-    width: 430px; }
-  .skateboarders .sidebar img {
-    height: 349px; }
-  .skateboarders .skaters div img {
-    width: 42%; } }
+    float: none;
+    position: relative;
+    margin: 0; }
+  #thumbwrap .thumb img {
+    width: 7.5%; }
+  header {
+    height: 200px; }
+  .css-slideshow {
+    padding: 0 3.5%; }
+  .container {
+    margin-top: 3%; } }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 600px) {
   html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; }
-  #thumbwrap .thumb img {
-    padding-right: 1.5%;
-    padding-left: 0; }
-  #form-div {
-    height: 100%; }
   .skater-nav ul {
-    margin-left: 25px; }
-  .form {
-    width: 100%; }
-  .contact {
-    width: 100%; } }
-
-@media screen and (max-width: 660px) {
+    margin-left: 35px; }
+  .skater-nav li {
+    font-size: 14px; }
   header {
     overflow: visible; }
   .figure img {
@@ -411,7 +405,7 @@ figcaption {
     clear: both;
     max-height: 100%;
     display: block;
-    margin-bottom: 200%;
+    margin-bottom: 50%;
     /* padding-left: 10%; */ }
   #thumbwrap {
     width: 100%;
@@ -420,19 +414,21 @@ figcaption {
   .skateboarders .sidebar {
     border: solid 5px white;
     /* float: right; */
-    width: 80%;
+    width: 78%;
     overflow: hidden;
-    margin: 10%; }
+    margin: 3% 10%; }
   .skateboarders .skaters {
-    margin: 1%; }
+    margin: 3% 17%;
+    width: 80%; }
   footer {
     clear: both;
-    height: 100%; }
+    height: 50%; }
   #form-div {
     padding-bottom: 100%;
-    height: 100%; }
+    height: 80%; }
   .css-slideshow {
     margin-top: 20%;
+    margin-left: 15%;
     padding: 0; }
   .skater-nav ul {
     padding: 20px; }
@@ -445,6 +441,31 @@ figcaption {
     float: none;
     margin: 0; }
   .skateboards {
-    padding: 20px 0 100% 0; }
+    padding: 20px 0 70% 0; }
   figure > img {
-    width: 400px; } }
+    width: 400px; }
+  .skateboarders .skaters p {
+    width: 390px; }
+  .skateboarders .skaters div {
+    width: 440px; }
+  .form {
+    float: none; } }
+
+@media screen and (max-width: 450px) {
+  #form-div {
+    height: 130%; }
+  .form {
+    width: 250px; }
+  .skateboards {
+    height: 90%; }
+  .main-content {
+    height: 110%;
+    margin-bottom: 110%;
+    margin-left: 10%; }
+  .skateboarders .skaters {
+    margin: 0;
+    width: auto; }
+  .css-slideshow {
+    margin: 0; }
+  #thumbwrap .thumb img {
+    width: 17%; } }

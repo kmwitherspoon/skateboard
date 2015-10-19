@@ -1,0 +1,195 @@
+@media screen and (max-width: 1230px) {
+  .skateboarders .sidebar {
+    width: 35%;
+  }
+
+/*  .skateboards {
+    padding-top: 20px;
+    width: 100%;
+  }*/
+
+  .skater-nav ul {
+    list-style: none;
+}
+
+.skater-nav ul li {
+  width: 100%;
+}
+
+.main-content {
+    display: flex;
+    margin-bottom: 50px;
+    max-height: 600px;
+}
+
+#thumbwrap .thumb {
+    float: none;
+    position: relative;
+    margin: 0;
+}
+
+#thumbwrap .thumb img {
+    width: 7.5%;
+}
+
+header {
+  height: 200px;
+}
+
+.css-slideshow {
+  padding: 0 3.5%;
+}
+
+.container  {
+  margin-top: 3%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.skater-nav {
+  ul {
+     margin-left: 35px;
+   }
+    li {
+       font-size: 14px;
+     }
+   }
+
+  header {
+    overflow: visible;
+  }
+
+  .figure img {
+    width: 400px;
+  }
+
+  .main-content section {
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.main-content {
+  clear: both;
+  max-height: 100%;
+  display: block;
+  margin-bottom: 50%;
+    /* padding-left: 10%; */
+}
+
+#thumbwrap {
+  width: 100%;
+  padding: 0;
+  margin: 10px;
+}
+
+.skateboarders .sidebar {
+    border: solid 5px white;
+    /* float: right; */
+    width: 78%;
+    overflow: hidden;
+    margin: 3% 10%;
+}
+
+.skateboarders .skaters {
+  margin: 3% 17%;
+  width: 80%;
+}
+
+footer {
+  clear: both;
+  height: 50%;
+}
+
+#form-div {
+    padding-bottom: 100%;
+    height: 80%;
+}
+
+.css-slideshow {
+  margin-top: 20%;
+  margin-left: 15%;
+  padding: 0;
+}
+
+.skater-nav ul {
+  padding: 20px;
+
+  li {
+    width: 100%;
+  }
+}
+
+.container {
+  margin-top: 30%;
+}
+
+#thumbwrap .thumb {
+  display: inline;
+  float: none;
+  margin: 0;
+}
+
+.skateboards {
+  padding: 20px 0 70% 0;
+}
+
+figure > img {
+  width: 400px;
+}
+
+.skateboarders .skaters p {
+      width: 390px;
+}
+.skateboarders .skaters div {
+    width: 440px;
+}
+
+.form {
+  float: none;
+}
+}
+
+@media screen and (max-width: 450px) {
+  #form-div {
+    height: 130%;
+  }
+
+  .form {
+    width: 250px;
+  }
+
+  .skateboards {
+    height: 90%;
+  }
+
+  .main-content {
+    height: 110%;
+    margin-bottom: 110%;
+    margin-left: 10%;
+  }
+
+  .skateboarders .skaters {
+    margin: 0;
+    width: auto;
+}
+
+.css-slideshow {
+  margin: 0;
+}
+
+#thumbwrap .thumb img {
+    width: 17%;
+}
+}
